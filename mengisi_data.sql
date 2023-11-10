@@ -10,3 +10,7 @@ INSERT INTO pelanggan (id, nama, email, no_hp, jenis_kelamin, alamat) VALUES
 ('C9', 'Rosa', 'rosa@gmail.com', '081345678911', 'perempuan', 'Bali'),
 ('C10', 'Viona', 'viona@gmail.com', '081234567832', 'perempuan', 'Malang')
 
+INSERT INTO kategori_produk (id, kategori) VALUES
+('K1', 'pakaian'),
+('K2', 'perabot'),
+('K3', 'elektronik')
