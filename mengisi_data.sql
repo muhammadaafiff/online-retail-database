@@ -15,7 +15,7 @@ INSERT INTO kategori_produk (id, kategori) VALUES
 ('K2', 'perabot'),
 ('K3', 'elektronik');
 
-INSERT INTO produk (id, nama, kategori, harga, stok) VALUES
+INSERT INTO produk (id, nama, id_kategori, harga, stok) VALUES
 ('P001', 'Baju', 'K1', 80000, 175),
 ('P002', 'Celana', 'K1', 125000, 155),
 ('P003', 'Sepatu', 'K1', 100000, 100),
