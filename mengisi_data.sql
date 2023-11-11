@@ -38,3 +38,7 @@ INSERT INTO transaksi (id_pelanggan, id_produk, qty, total_harga) VALUES
 ('C8', 'P009', 1, 150000),
 ('C9', 'P003', 3, 300000),
 ('C10', 'P001', 7, 560000);
+
+INSERT INTO transaksi (id_pelanggan, id_produk, qty, total_harga) VALUES
+('C1', 'P005', 3, 819000),
+('C1', 'P007', 1, 4100500);
