@@ -45,3 +45,12 @@ INSERT INTO transaksi (id_pelanggan, id_produk, qty, total_harga) VALUES
 
 INSERT INTO transaksi (id_pelanggan, id_produk, qty, total_harga) VALUES
 ('C5', 'P001', 8, 640000);
+
+INSERT INTO transaksi (id_pelanggan, id_produk, qty, total_harga) VALUES
+('C2', 'P002', 1, 125000),
+('C3', 'P009', 1, 150000),
+('C3', 'P010', 1, 200000),
+('C5', 'P002', 5, 625000),
+('C7', 'P010', 3, 600000),
+('C10', 'P002', 4, 500000),
+('C10', 'P003',	2, 200000);
