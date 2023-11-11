@@ -27,3 +27,14 @@ INSERT INTO produk (id, nama, kategori, harga, stok) VALUES
 ('P009', 'Mouse', 'K3', 150000, 35),
 ('P010', 'Speaker', 'K3', 200000, 8);
 
+INSERT INTO transaksi (id_pelanggan, id_produk, qty, total_harga) VALUES
+('C1', 'P004', 1, 450000),
+('C2', 'P001', 1, 80000),
+('C3', 'P008', 1, 9799000),
+('C4', 'P010', 1, 200000),
+('C5', 'P006', 2, 1530000),
+('C6', 'P008', 3, 29397000),
+('C7', 'P007', 3, 12301500),
+('C8', 'P009', 1, 150000),
+('C9', 'P003', 3, 300000),
+('C10', 'P001', 7, 560000);
